@@ -3,7 +3,7 @@ import {GithubUserContext} from './GithubUserContext.js';
 
 
 
-export default function Submit(event){//When "submit" function is called
+export default function Submit(){//When "submit" function is called
     let {repositories} = useContext(GithubUserContext);
     let {setGithubUser} = useContext(GithubUserContext);
 
